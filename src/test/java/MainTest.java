@@ -7,7 +7,8 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 public class MainTest {
     @Test
-    public void jenkinsAutoDeployPushes() {
-        assertThat(1, equalTo(2));
+    public void jenkinsDoNotDeployPushesIfTestFails() {
+        //assertThat(1, equalTo(2));
+        assertThat(1, equalTo(1));
     }
 }
