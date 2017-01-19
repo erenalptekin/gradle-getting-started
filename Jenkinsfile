@@ -10,6 +10,6 @@ node {
        }
    }
    stage('Deploy') {
-        sh "git push https://heroku.com/frozen-ravine-80863.git master"
+        sh "git push https://git.heroku.com/frozen-ravine-80863.git master"
    }
 }
